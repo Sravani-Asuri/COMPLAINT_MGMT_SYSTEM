@@ -1,0 +1,27 @@
+.complaints_div {
+  height: 30rem;
+  width: 25rem;
+  border-radius: 10px;
+  display: block;
+  background-color: rgb(232, 218, 218);
+  box-shadow: 1px 1px 5px black;
+  overflow-wrap: break-word;
+  justify-content: flex-start;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding:2%;
+}
+.complaints_view_div{
+    padding-top: 5%;
+    width: fill;
+    height: 92.8vh;
+    overflow-y: scroll;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    grid-template-columns: repeat(auto-fit, 26rem);
+    grid-template-rows: repeat(auto-fit, 32rem);
+}
+::-webkit-scrollbar{
+  display: none;
+}
